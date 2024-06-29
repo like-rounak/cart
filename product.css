@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0033cc;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.cart-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #0033cc;
+    color: white;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: #001a66;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.product-detail {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.product-detail img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.product-detail .details {
+    max-width: 600px;
+}
+
+.product-detail h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.product-detail p {
+    margin: 10px 0;
+}
+
+.product-detail .price {
+    font-size: 20px;
+    color: #0033cc;
+}
+
+.product-detail .rating {
+    display: flex;
+    align-items: center;
+}
+
+.product-detail .rating i {
+    color: #FFD700;
+    margin-right: 5px;
+}
+
+.product-detail .actions {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.product-detail .actions input {
+    width: 50px;
+    margin-right: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.product-detail button {
+    background-color: #0033cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.product-detail .save-share-buttons button {
+    margin-top: 20px;
+    padding: 10px;
+    margin-right: 10px;
+}

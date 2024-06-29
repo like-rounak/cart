@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0033cc;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.cart-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #0033cc;
+    color: white;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-bottom {
+    background-color: #001a66;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.footer-bottom p {
+    margin: 5px 0;
+}
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.product-list {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.filters {
+    width: 20%;
+    padding-right: 20px;
+}
+
+.filters label {
+    display: block; /* Ensures each filter appears on a new line */
+    margin-bottom: 10px; /* Adds some space between the filters */
+}
+
+.sort {
+    align-self: flex-start; /* Aligns the sort section at the top */
+    margin-bottom: 20px; /* Adds some space below the sort section */
+}
+
+.products-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
