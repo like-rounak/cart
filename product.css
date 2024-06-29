@@ -1,3 +1,4 @@
+/* Base styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -158,4 +159,60 @@ footer {
     margin-top: 20px;
     padding: 10px;
     margin-right: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 320px) {
+    /* Adjustments for mobile */
+    .product-detail {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-detail img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    /* Adjustments for tablet */
+    .product-detail {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-detail img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Adjustments for desktop small */
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Adjustments for desktop medium */
+}
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+    /* Adjustments for desktop large */
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+    /* Adjustments for desktop x-large */
+}
+
+@media (min-width: 1921px) {
+    /* Adjustments for larger screens */
 }
