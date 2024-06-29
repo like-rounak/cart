@@ -42,7 +42,7 @@ function applyInitialFilter(category) {
     let filteredProducts = products;
 
     if (category) {
-        switch(category) {
+        switch (category) {
             case "women":
                 filteredProducts = products.filter(product => product.category === "women's clothing");
                 document.getElementById("filter-women").checked = true;
